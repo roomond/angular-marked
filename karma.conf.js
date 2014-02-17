@@ -17,7 +17,8 @@ module.exports = function(config) {
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/marked/lib/marked.js',
       'angular-marked.js',
-      'test/spec/**/*.js'
+      'test/spec/**/*.js',
+      {pattern: 'test/*.html', watched: true, included: false, served: true}
     ],
 
     // list of files / patterns to exclude

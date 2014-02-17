@@ -66,12 +66,12 @@ describe('Directive: marked,', function () {
     });
 
     it('should convert markdown from scope', function () {
-      element = $compile('<div marked="markdown"></div>')(scope);
+      element = $compile('<div marked ng-bind="markdown"></div>')(scope);
       expect(element.html()).toContain(html);
     });
 
     it('should convert markdown from string', function () {
-      element = $compile('<div marked="\'## String\'"></div>')(scope);
+      element = $compile('<div marked ng-bind="\'## String\'"></div>')(scope);
       expect(element.html()).toContain('<h2 id="string">String</h2>');
     });
   });

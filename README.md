@@ -30,7 +30,7 @@ Bind the markdown input to a scope variable:
 
 ```html
 
-	<div marked="my_markdown"> 
+	<div marked ng-bind="my_markdown"> 
 	</div>
 	<!-- Uses $scope.my_markdown -->
 ```
@@ -44,6 +44,16 @@ Include a markdown file:
 	<!-- Uses markdown content from README.md -->
 ```
 
+Set marked options:
+
+```html
+
+	<div marked="{gfm: false}">   
+	     #Markdown directive   
+	     *It works!*  
+	</div>
+```
+
 ### As a service
 
 ```js
@@ -51,6 +61,14 @@ Include a markdown file:
 	app.controller('myCtrl', ['marked', function(marked) {
 	  $scope.html = marked('#TEST');
 	}]);
+```
+
+### As a filter
+
+```html
+
+	{{my_markdown | marked}}
+	<!-- Uses $scope.my_markdown -->
 ```
 
 ## Testing
