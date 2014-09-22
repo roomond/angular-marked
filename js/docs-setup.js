@@ -19,7 +19,7 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "hc.marked",
       "shortDescription": "Compiles source test into HTML.",
-      "keywords": "$scope $templatecache ae angular api bind blank block class cols compiled compiles content defaults directive examplea exampleb examplec fakeinclude file function hash hc html include js maincontroller markdown marked md module my_markdown myapp net ng-controller ng-include ng-model options opts output override rows scope simple source span8 test text var variable view works"
+      "keywords": "$scope ae api bind blank block class cols compiled compiles content defaults directive examplea exampleb examplec file function hash hc html include js maincontroller markdown marked module my_markdown net ng-controller ng-include ng-model options opts output override rows scope simple source span8 test text variable view works"
     },
     {
       "section": "api",

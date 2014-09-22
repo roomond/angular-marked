@@ -6,7 +6,6 @@
 
 /* jshint undef: true, unused: true */
 /* global angular:true */
-/* global document:true */
 
 (function () {
 	'use strict';
@@ -73,8 +72,6 @@
         }
       </file>
     </example>
-
-
    **/
 
    /**
@@ -200,21 +197,16 @@
 
       ## Include a markdown file:
 
-       <example module="myApp">
+       <example module="hc.marked">
          <file name="exampleC.html">
-           <div marked ng-include="'fakeInclude.md'" />
+           <div marked ng-include="'include.html'" />
          </file>
-				<file name="exampleC.js">
-					var myApp = angular.module('myApp', ['hc.marked']);
-					myApp.run(function($templateCache) {
-					  var md = '*This* **is** [markdown](https://daringfireball.net/projects/markdown/)';
-						md += ' in a [include file][]';
-						md += '\n\n[include file]: # "Not really"';
-					  $templateCache.put('fakeInclude.md', md);
-					});
-				</file>
+				 * <file name="include.html">
+				 * *This* **is** [markdown](https://daringfireball.net/projects/markdown/) in a include file.
+				 * </file>
        </example>
    */
+
   .directive('marked', ['marked', function (marked) {
     return {
       restrict: 'AE',
