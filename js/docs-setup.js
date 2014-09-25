@@ -54,7 +54,7 @@ NG_DOCS={
   ],
   "discussions": {
     "shortName": "hypercubedgithub",
-    "url": "https://github.com/Hypercubed/",
-    "dev": true
+    "url": "http://hypercubed.github.io/angular-marked/",
+    "dev": false
   }
 };
