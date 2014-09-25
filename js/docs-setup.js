@@ -51,5 +51,10 @@ NG_DOCS={
     "marked.js",
     "angular-marked.js",
     "script.js"
-  ]
+  ],
+  "discussions": {
+    "shortName": "hypercubedgithub",
+    "url": "https://github.com/Hypercubed/",
+    "dev": true
+  }
 };
