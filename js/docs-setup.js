@@ -14,6 +14,15 @@ NG_DOCS={
     },
     {
       "section": "api",
+      "id": "hc.marked",
+      "shortName": "hc.marked",
+      "type": "overview",
+      "moduleName": "hc.marked",
+      "shortDescription": "angular-marked (core module)",
+      "keywords": "adding angular angular-marked api application dependency hc html include installation js load marked module overview ready src started yourapp"
+    },
+    {
+      "section": "api",
       "id": "hc.marked.directive:marked",
       "shortName": "marked",
       "type": "directive",
