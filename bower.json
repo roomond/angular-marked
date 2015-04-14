@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "angular": ">= 1.2.5",
-    "marked": "~0.3.1"
+    "marked": "https://github.com:roomond/marked.git#0.3.3"
   },
   "devDependencies": {
     "angular-mocks": ">= 1.2.5"
